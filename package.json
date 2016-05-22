@@ -29,7 +29,9 @@
         "babelify",
         {
           "presets": [
-            "es2015",
+            "es2015"
+          ],
+          "plugins": [
             "transform-object-rest-spread"
           ]
         }
